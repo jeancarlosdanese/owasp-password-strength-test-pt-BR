@@ -19,7 +19,14 @@ Installing
 From the command line:
 
 ```sh
-npm install owasp-password-strength-test-pt-BR
+npm install owasp-password-strength-test-pt-br --save
+```
+
+### Client-side (Angularjs) ###
+From the command line:
+
+```sh
+bower install owasp-password-strength-test-pt-br --save
 ```
 
 ### In-browser ###
