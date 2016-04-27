@@ -70,7 +70,7 @@ straightforward:
 ### Server-side ###
 ```javascript
 // require the module
-var owasp = require('owasp-password-strength-test');
+var owasp = require('owasp-password-strength-test-pt-br');
 
 // invoke test() to test the strength of a password
 var result = owasp.test('correct horse battery staple');
@@ -160,7 +160,7 @@ The module may be configured as follows:
 
 
 ```javascript
-var owasp = require('owasp-password-strength-test');
+var owasp = require('owasp-password-strength-test-pt-br');
 
 // Pass a hash of settings to the `config` method. The settings shown here are
 // the defaults.
@@ -201,7 +201,7 @@ default, you may simply push new tests onto the appropriate arrays within the
 module's `test` object:
 
 ```javascript
-var owasp = require('owasp-password-strength-test');
+var owasp = require('owasp-password-strength-test-pt-br');
 
 // push "required" tests onto `tests.required` array, and push "optional" tests
 // onto the `tests.optional` array.
